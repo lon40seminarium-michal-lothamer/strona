@@ -90,3 +90,8 @@ table {
     border-collapse: collapse;
     width: 100%; 
 }
+table.srodek {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
