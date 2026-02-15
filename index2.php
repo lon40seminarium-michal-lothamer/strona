@@ -23,7 +23,7 @@
             <label for="pr_b">długość boku B</label></br>
             <input type="text"id="pr_b"name="pr_b"/>
             <input type="button"value="Oblicz" onclick="obliczPr()"/>
-            <p id="pr_wynik"></p>
+            <p id="pole"></p>
         </fieldset>
     </div>
 </div>
