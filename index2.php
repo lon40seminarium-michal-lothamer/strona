@@ -9,10 +9,10 @@
   <script src="script.js"></script>
 </head>
 <body>
-
-<nav>
-  <li><a href="index.php">Powrót</a></li>
-</nav>
+<h1 class="title">Obliczanie pól</h1>
+  <div class="container">
+    <a class="button" href="index.php" title="1">Powrót</a>
+  </div><br>
 
 <div id="container1">
     <div id="fig1">
@@ -23,7 +23,6 @@
             <label for="pr_b">długość boku B</label></br>
             <input type="text"id="pr_b"name="pr_b"/>
             <input type="button"value="Oblicz"/>
-            echo pole
         </fieldset>
     </div>
 </div>
