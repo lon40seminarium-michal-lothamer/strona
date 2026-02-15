@@ -14,20 +14,92 @@
     <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
 
-<div id="container1">
-    <div id="fig1">
-        <fieldset id="f1">
-            <legend>prostokąt</legend>
-            <label for="pr_a">długość boku A</label></br>
-            <input type="text"id="pr_a"name="pr_a"/>
-            <label for="pr_b">długość boku B</label></br>
-            <input type="text"id="pr_b"name="pr_b"/>
-            <input type="button"value="Oblicz" onclick="obliczPr()"/>
-            <p id="pole"></p>
+<table>
+    <tr>
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Pole i obwód Prostokąta</h2>
+        <input type="number" id="rectA" placeholder="Bok a">
+        <input type="number" id="rectB" placeholder="Bok b">
+        <br><button onclick="rectangle()">Oblicz</button>
+        <div class="result" id="rectResult" style="color:White"></div>
         </fieldset>
     </div>
-</div>
+    </td>
 
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Okrąg</h2>
+        <input type="number" id="circleR" placeholder="Promień r">
+        <br><button onclick="circle()">Oblicz</button>
+        <div class="result" id="circleResult" style="color:White"></div>
+        </fieldset>
+    </div>
+    </td>
+    </tr>
+    </table>
+
+    <table>
+    <tr>
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Pole Trójkąta</h2>
+        <input type="number" id="triA" placeholder="Podstawa a">
+        <input type="number" id="triH" placeholder="Wysokość h">
+        <br><button onclick="triangleArea()">Oblicz</button>
+        <div class="result" id="triResult" style="color:White"></div>
+        </fieldset>
+    </div>
+    </td>
+
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Obwód Trójkąta</h2>
+        <input type="number" id="2triA" placeholder="Bok a">
+        <input type="number" id="2triB" placeholder="Bok b">
+        <input type="number" id="2triC" placeholder="Bok c">
+        <br><button onclick="trianglePerimeter()">Oblicz</button>
+        <div class="result" id="2triResult" style="color:White"></div>
+        </fieldset>
+    </div>
+    </td>
+    </tr>
+    </table>
+    
+    <table>
+    <tr>
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Pole Trapezu</h2>
+        <input type="number" id="trapA" placeholder="Podstawa a">
+        <input type="number" id="trapB" placeholder="Podstawa b">
+        <input type="number" id="trapC" placeholder="Wysokość h">
+        <br><button onclick="trapezoidArea()">Oblicz</button>
+        <div class="result" id="trapResult" style="color:White"></div>
+        </fieldset>
+    </div>
+    </td>
+
+    <td>
+    <div>
+        <fieldset id = "fig1">
+        <h2 style="color:White">Obwód Trapezu</h2>
+        <input type="number" id="2trapA" placeholder="Podstawa a">
+        <input type="number" id="2trapB" placeholder="Podstawa b">
+        <input type="number" id="2trapC" placeholder="Bok a">
+        <input type="number" id="2trapD" placeholder="Bok b">
+        <br><button onclick="trapezoidPerimeter()">Oblicz</button>
+        <div class="result" id="2trapResult" style="color:White"></div>
+        </fieldset>
+    </div>
+    </td>
+    </tr>
+    </table>
 
 
 </body>
