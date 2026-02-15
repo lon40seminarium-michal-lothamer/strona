@@ -7,7 +7,7 @@
     </head>
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
   <div class="container">
-    <a class="button" href="index1.php" title="1">Elementy Elektroniczne</a>
+    <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
 
     <img class="srodek" src="img/1.png" width="100">
