@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 10vh;         
+  display: flex;
+  justify-content: center;    
+  align-items: center;        
+}
+
+.button {
+  background-color: #106646b6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.title {
+  background-color: rgb(13, 120, 13);
+  border: darkgreen;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: whitesmoke;
+  display: -moz-inline-box;
+  font-size: 24px;
+  margin: 4px 2px;
+  justify-content: center;    
+  align-items: center; 
+}
+#background {
+  border-radius: 25px;
+  background-color: aquamarine;
+} 
+
+.srodek {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.srodek1 {
+text-align: center;
+}
+.link-srodek {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+pod figury
+
+#container1{
+    background-color: rgb(210, 26, 216);
+    width: 600px; 
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#fig1{
+    height: 200px;
+    width: 200px;
+}
+#h1{
+    font-family: 'Lucida Sans", "Lucida Sans Regular', 'Lucida Grande', 'Lucida';
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+#f1{
+    height: 180px;
+    border-radius: 10px;
+}

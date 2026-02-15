@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <body style="font-family: Tahoma"></body>
+  <meta charset="UTF-8">
+  <title>Pola Figur</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="funkcjefigury.js"></script>
+</head>
+<body>
+
+<nav>
+  <li><a href="index.php">Main page</a></li>
+</nav>
+
+<div id="container1">
+    <div id="fig1">
+        <fieldset id="f1">
+            <legend>prostokąt</legend>
+            <label for="pr_a">długość boku A</label></br>
+            <input type="text"id="pr_a"name="pr_a"/>
+            <label for="pr_b">długość boku B</label></br>
+            <input type="text"id="pr_b"name="pr_b"/>
+            <input type="button"value="Oblicz"/>
+        </fieldset>
+    </div>
+</div>
+
+
+</body>
+</html>
