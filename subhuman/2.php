@@ -5,5 +5,5 @@
     </head>
     <h2>Kondensator to element elektroniczny, który magazynuje energię elektryczną w postaci pola elektrycznego między dwiema okładkami przewodzącymi. Służy m.in. do wygładzania napięcia, filtrowania sygnałów oraz krótkotrwałego podtrzymywania zasilania w układach elektronicznych.
 </h2>
-<a href="../index1.html" title="1">Powrót</a>
+<a href="../index1.php" title="1">Powrót</a>
 </html>

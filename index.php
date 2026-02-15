@@ -13,11 +13,11 @@
     <body>
     <h1 class="title">Strony</h1>
   <div class="container">
-    <a class="button" href="index1.html" target="_blank" title="1">Elementy Elektroniczne</a>
+    <a class="button" href="index1.php" target="_blank" title="1">Elementy Elektroniczne</a>
   </div>    
 <body>
   <div class="container">
-    <a class="button" href="index.php" target="_blank" title="1">Obliczanie pól</a>
+    <a class="button" href="index2.php" target="_blank" title="1">Obliczanie pól</a>
   </div>
 </body>
     </body>
