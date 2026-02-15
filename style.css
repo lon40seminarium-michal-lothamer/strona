@@ -70,7 +70,7 @@ pod figury
 #fig1{
     height: 200px;
     width: 200px;
-    background-image: url('img/ウマ娘-ヴィブロス.png');
+    background-image: url(img/vivlos.gif);
     background-color: #cccccc;
 }
 #h1{
