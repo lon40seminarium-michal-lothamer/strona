@@ -85,3 +85,8 @@ pod figury
     height: 180px;
     border-radius: 10px;
 }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
