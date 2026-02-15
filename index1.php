@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <body style="font-family: Tahoma"></body>
         <meta charset="utf-8">
         <title>strona</title>
         <link rel="stylesheet" href="style.css">
