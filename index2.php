@@ -15,7 +15,7 @@
     <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
 <div id="container1">
-<table>
+<table class="srodek">
     <tr>
     <td>
     <div>
@@ -41,8 +41,9 @@
     </td>
     </tr>
     </table>
+    <img src="img/vivlos.gif" alt="Przykładowy obraz" class="center-img">
 
-    <table>
+    <table class="srodek">
     <tr>
     <td>
     <div>
@@ -71,7 +72,7 @@
     </tr>
     </table>
     
-    <table>
+    <table class="srodek">
     <tr>
     <td>
     <div>

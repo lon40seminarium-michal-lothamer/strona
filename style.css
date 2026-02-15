@@ -1,3 +1,13 @@
+/* Centered image between tables */
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
 body {
   margin: 0;
 }
