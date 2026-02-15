@@ -11,7 +11,7 @@
 <body>
 
 <nav>
-  <li><a href="index.php">Main page</a></li>
+  <li><a href="index.php">Powrót</a></li>
 </nav>
 
 <div id="container1">

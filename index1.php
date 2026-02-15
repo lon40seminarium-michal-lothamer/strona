@@ -5,7 +5,8 @@
         <title>strona</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <h1 class="title">Elementy Elektroniczne</h1>
+    <h1 class="title">Elementy Elektroniczne</h1><br><br>
+    <li><a class="link-srodek" href="index.php">Powrót</a></li><br><br>
 
     <img class="srodek" src="img/1.png" width="100">
     <a class="link-srodek" href="subhuman/1.php" title="1">Rezystor</a><br><br>
