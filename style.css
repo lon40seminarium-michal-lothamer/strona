@@ -35,10 +35,11 @@ body {
   justify-content: center;    
   align-items: center; 
 }
-#background {
-  border-radius: 25px;
-  background-color: aquamarine;
-} 
+
+#background{
+    color: rgb(16, 177, 2);
+    background-color: rgb(16, 177, 2);
+}
 
 .srodek {
   display: block;
