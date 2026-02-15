@@ -1,32 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <body style="font-family: Tahoma"></body>
-  <meta charset="UTF-8">
-  <title>Pola Figur</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <script src="script.js"></script>
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>strona</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .srodek {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    <h1 class="title">Strony</h1>
+  <div class="container">
+    <a class="button" href="index1.html" target="_blank" title="1">Elementy Elektroniczne</a>
+  </div>    
 <body>
-
-<nav>
-  <li><a href="index.php">Main page</a></li>
-</nav>
-
-<div id="container1">
-    <div id="fig1">
-        <fieldset id="f1">
-            <legend>prostokąt</legend>
-            <label for="pr_a">długość boku A</label></br>
-            <input type="text"id="pr_a"name="pr_a"/>
-            <label for="pr_b">długość boku B</label></br>
-            <input type="text"id="pr_b"name="pr_b"/>
-            <input type="button"value="Oblicz"/>
-        </fieldset>
-    </div>
-</div>
-
-
+  <div class="container">
+    <a class="button" href="index.php" target="_blank" title="1">Obliczanie pól</a>
+  </div>
 </body>
+    </body>
 </html>
