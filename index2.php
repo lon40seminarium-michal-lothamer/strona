@@ -14,7 +14,7 @@
   <div class="container">
     <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
-
+<div id="container">
 <table>
     <tr>
     <td>
@@ -101,7 +101,7 @@
     </td>
     </tr>
     </table>
-
+</div>
 
 </body>
 </html>
