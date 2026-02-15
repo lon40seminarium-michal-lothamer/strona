@@ -40,8 +40,7 @@
     </div>
     </td>
     </tr>
-    </table>
-    <img src="img/vivlos.gif" alt="Przykładowy obraz" class="center-img">
+</table>
 
     <table class="srodek">
     <tr>
