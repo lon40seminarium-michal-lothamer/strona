@@ -9,6 +9,7 @@
   <script src="script.js"></script>
 </head>
 <body>
+  <body id = "background">
 <h1 class="title">Obliczanie pól</h1>
   <div class="container">
     <a class="button" href="index.php" title="1">Powrót</a>

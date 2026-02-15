@@ -11,6 +11,7 @@
         </style>
     </head>
     <body>
+      <body id = "background">
     <h1 class="title">Strony</h1>
   <div class="container">
     <a class="button" href="index1.php" title="1">Elementy Elektroniczne</a>

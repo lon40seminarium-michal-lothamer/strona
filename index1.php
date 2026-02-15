@@ -5,6 +5,7 @@
         <title>strona</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    <body id = "background">
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
   <div class="container">
     <a class="button" href="index.php" title="1">Powrót</a>
