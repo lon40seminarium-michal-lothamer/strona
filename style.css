@@ -87,6 +87,6 @@ pod figury
 }
 
 table {
-  display: block;
-  margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%; 
 }
