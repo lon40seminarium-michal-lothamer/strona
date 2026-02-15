@@ -7,3 +7,4 @@ RUN a2enmod rewrite
 
 # Set proper ownership so Apache can read the files
 RUN chown -R www-data:www-data /var/www/html
+EXPOSE 80
