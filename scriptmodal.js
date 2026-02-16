@@ -31,6 +31,6 @@ function openModal(modal) {
 
 function closeModal(modal) {
     if (modal == null) return
-    modal.classList.close('active')
-    overlay.classList.close('active')
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
 }
