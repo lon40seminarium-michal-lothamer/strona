@@ -4,7 +4,7 @@
         <body style="font-family: Tahoma"></body>
         <meta charset="utf-8">
         <title>strona</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylemodal.css">
     </head>
     <body id = "background">
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
