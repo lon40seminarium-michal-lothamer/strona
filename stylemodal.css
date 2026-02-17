@@ -69,6 +69,17 @@
     pointer-events: all;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .center-img {
   display: block;
   margin-left: auto;
@@ -90,7 +101,7 @@ body {
 }
 
 .button {
-  background-color: #106646b6;
+  background-color: #103766b6;
   border: none;
   color: white;
   padding: 15px 32px;
