@@ -61,8 +61,7 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url(img/peak.gif);
-    background-size: cover 0 100%;
-    background-position: center;
+    background-size: cover 100%;
     pointer-events: none;
     transition: 200ms ease-in-out;
 }
