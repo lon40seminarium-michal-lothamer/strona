@@ -27,8 +27,8 @@
 <br><br>
 
         <img class="srodek" src="img/2.png" width="100">
-                <button class="srodek" data-modal-target="#modal1">Kondensator</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Kondensator</button>
+        <div class="modal" id="modal1">
             <div class="modal-header">
                 <div class="modal-title">Kondensator</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -41,8 +41,8 @@
 <br><br>
 
         <img class="srodek" src="img/3.png" width="100">
-                <button class="srodek" data-modal-target="#modal2">Dioda LED</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Dioda LED</button>
+        <div class="modal" id="modal2">
             <div class="modal-header">
                 <div class="modal-title">Dioda LED</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -55,8 +55,8 @@
 <br><br>
 
         <img class="srodek" src="img/4.png" width="100">
-                <button class="srodek" data-modal-target="#modal3">Wyświetlacz siedmiosegmentowy</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Wyświetlacz siedmiosegmentowy</button>
+        <div class="modal" id="modal3">
             <div class="modal-header">
                 <div class="modal-title">Wyświetlacz siedmiosegmentowy</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -69,8 +69,8 @@
 <br><br>
 
         <img class="srodek" src="img/5.png" width="100">
-                <button class="srodek" data-modal-target="#modal4">Klawiatura alfanumeryczna 4x3</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Klawiatura alfanumeryczna 4x3</button>
+        <div class="modal" id="modal4">
             <div class="modal-header">
                 <div class="modal-title">Klawiatura alfanumeryczna 4x3</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -83,8 +83,8 @@
 <br><br>
 
         <img class="srodek" src="img/6.png" width="100">
-                <button class="srodek" data-modal-target="#modal5">Microswitch</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Microswitch</button>
+        <div class="modal" id="modal5">
             <div class="modal-header">
                 <div class="modal-title">Microswitch</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -97,8 +97,8 @@
 <br><br>
 
         <img class="srodek" src="img/7.png" width="100">
-                <button class="srodek" data-modal-target="#modal6">Fotosrezystor</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Fotosrezystor</button>
+        <div class="modal" id="modal6">
             <div class="modal-header">
                 <div class="modal-title">Fotosrezystor</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -111,8 +111,8 @@
 <br><br>
 
         <img class="srodek" src="img/8.png" width="100">
-                <button class="srodek" data-modal-target="#modal7">Przełącznik</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Przełącznik</button>
+        <div class="modal" id="modal7">
             <div class="modal-header">
                 <div class="modal-title">Przełącznik</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -125,8 +125,8 @@
 <br><br>
 
         <img class="srodek" src="img/9.png" width="100">
-                <button class="srodek" data-modal-target="#modal8">Silnik krokowy</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Silnik krokowy</button>
+        <div class="modal" id="modal8">
             <div class="modal-header">
                 <div class="modal-title">Silnik krokowy</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -139,8 +139,8 @@
 <br><br>
 
         <img class="srodek" src="img/10.png" width="100">
-                <button class="srodek" data-modal-target="#modal9">Servo SG-90</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Servo SG-90</button>
+        <div class="modal" id="modal9">
             <div class="modal-header">
                 <div class="modal-title">Servo SG-90</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -153,8 +153,8 @@
 <br><br>
 
         <img class="srodek" src="img/11.png" width="100">
-                <button class="srodek" data-modal-target="#modal10">Potencjometr</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Potencjometr</button>
+        <div class="modal" id="modal10">
             <div class="modal-header">
                 <div class="modal-title">Potencjometr</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -167,8 +167,8 @@
 <br><br>
 
         <img class="srodek" src="img/12.png" width="100">
-                <button class="srodek" data-modal-target="#modal11">Enkoder inkrementalny</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Enkoder inkrementalny</button>
+        <div class="modal" id="modal1">
             <div class="modal-header">
                 <div class="modal-title">Enkoder inkrementalny</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -181,8 +181,8 @@
 <br><br>
 
         <img class="srodek" src="img/13.png" width="100">
-                <button class="srodek" data-modal-target="#modal12">Czujnik utradźwiekowy</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Czujnik utradźwiekowy</button>
+        <div class="modal" id="modal12">
             <div class="modal-header">
                 <div class="modal-title">Czujnik utradźwiekowy</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -195,8 +195,8 @@
 <br><br>
 
         <img class="srodek" src="img/14.png" width="100">
-                <button class="srodek" data-modal-target="#modal13">Czujnik magnetyczny - kontaktron</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Czujnik magnetyczny - kontaktron</button>
+        <div class="modal" id="modal13">
             <div class="modal-header">
                 <div class="modal-title">Czujnik magnetyczny - kontaktron</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -209,8 +209,8 @@
 <br><br>
 
         <img class="srodek" src="img/15.png" width="100">
-                <button class="srodek" data-modal-target="#modal15">Wyświetlacz LED</button>
-        <div class="modal" id="modal">
+                <button class="srodek" data-modal-target="#modal">Wyświetlacz LED</button>
+        <div class="modal" id="modal14">
             <div class="modal-header">
                 <div class="modal-title">Wyświetlacz LED</div>
                 <button data-close-button class="close-button">&times;</button>
