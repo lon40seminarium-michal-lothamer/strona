@@ -12,7 +12,7 @@
   <body id = "background">
 <h1 class="title">Obliczanie pól</h1>
   <div class="container">
-    <a class="button" href="index.php" title="1">Powrót</a>
+    <a class="button" href="index.php" title="dlaczego to czytasz">Powrót</a>
   </div><br>
 <div id="container1">
 <table class="srodek">

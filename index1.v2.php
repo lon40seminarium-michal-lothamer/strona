@@ -3,13 +3,13 @@
     <head>
         <body style="font-family: Tahoma"></body>
         <meta charset="utf-8">
-        <title>strona</title>
+        <title>Elementy Elektronicznev2</title>
         <link rel="stylesheet" href="stylemodal.css">
     </head>
     <body id = "background">
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
   <div class="container">
-    <a class="button" href="index.php" title="1">Powrót</a>
+    <a class="button" href="index.php" title="dlaczego to czytasz">Powrót</a>
   </div><br>
 
                 <img class="srodek" src="img/1.png" width="100">
