@@ -168,7 +168,7 @@
 
         <img class="srodek" src="img/12.png" width="100">
             <button class="srodek" data-modal-target="#modal11">Enkoder inkrementalny</button>
-        <div class="modal" id="modal1">
+        <div class="modal" id="modal11">
             <div class="modal-header">
                 <div class="modal-title">Enkoder inkrementalny</div>
                 <button data-close-button class="close-button">&times;</button>
