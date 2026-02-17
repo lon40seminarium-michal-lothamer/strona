@@ -59,11 +59,11 @@
     bottom: 0;
     left: 0;
     right: 0;
+    background-image: url(img/peak.gif);
     background-size: cover 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(img/peak.gif);
     pointer-events: none;
     transition: 200ms ease-in-out;
 }
