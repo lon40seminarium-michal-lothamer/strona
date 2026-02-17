@@ -23,6 +23,9 @@
                 Rezystor to element elektroniczny, który ogranicza przepływ prądu w obwodzie elektronicznym.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/2.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Kondensator</button>
         <div class="modal" id="modal">
@@ -34,6 +37,9 @@
                 Kondensator to element elektroniczny, który przechowuje energię w polu elektrycznym.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/3.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Dioda LED</button>
         <div class="modal" id="modal">
@@ -45,6 +51,9 @@
                 Dioda LED to element elektroniczny, który emituje światło podczas przepływu prądu.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/4.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Wyświetlacz siedmiosegmentowy</button>
         <div class="modal" id="modal">
@@ -56,6 +65,9 @@
                 Wyświetlacz siedmiosegmentowy to element elektroniczny, który wyświetla cyfry i litery za pomocą siedmiu oświetlonych segmentów.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/5.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Klawiatura alfanumeryczna 4x3</button>
         <div class="modal" id="modal">
@@ -67,6 +79,9 @@
                 Klawiatura alfanumeryczna 4x3 to element elektroniczny, który umożliwia wprowadzanie danych numerycznych i literowych.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/6.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Microswitch</button>
         <div class="modal" id="modal">
@@ -78,6 +93,9 @@
                 Microswitch to element elektroniczny, który działa jako przełącznik mechaniczny.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/7.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Fotosrezystor</button>
         <div class="modal" id="modal">
@@ -89,6 +107,9 @@
                 Fotosrezystor to element elektroniczny, którego rezystancja zmienia się w zależności od natężenia światła padającego na niego.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/8.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Przełącznik</button>
         <div class="modal" id="modal">
@@ -100,6 +121,9 @@
                 Przełącznik to element elektroniczny, który umożliwia włączanie i wyłączanie obwodu.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/9.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Silnik krokowy</button>
         <div class="modal" id="modal">
@@ -111,6 +135,9 @@
                 Silnik krokowy to element elektroniczny, który przesuwa się w określonych krokach.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/10.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Servo SG-90</button>
         <div class="modal" id="modal">
@@ -122,6 +149,9 @@
                 Servo SG-90 to element elektroniczny, który umożliwia precyzyjne sterowanie kątem obrotu.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/11.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Potencjometr</button>
         <div class="modal" id="modal">
@@ -133,6 +163,9 @@
                 Potencjometr to element elektroniczny, który umożliwia zmianę rezystancji w sposób ręczny.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/12.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Enkoder inkrementalny</button>
         <div class="modal" id="modal">
@@ -144,6 +177,9 @@
                 Enkoder inkrementalny to element elektroniczny, który umożliwia pomiar przemieszczenia w sposób cyfrowy.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/13.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Czujnik utradźwiekowy</button>
         <div class="modal" id="modal">
@@ -155,6 +191,9 @@
                 Czujnik utradźwiekowy to element elektroniczny, który wykrywa obecność obiektu w oparciu o zmianę rezystancji.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/14.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Czujnik magnetyczny - kontaktron</button>
         <div class="modal" id="modal">
@@ -166,6 +205,9 @@
                 Czujnik magnetyczny - kontaktron to element elektroniczny, który wykrywa obecność magnesu w oparciu o zmianę rezystancji.
             </div>
         </div>
+
+<br><br>
+
         <img class="srodek" src="img/15.png" width="100">
                 <button class="srodek" data-modal-target="#modal">Wyświetlacz LED</button>
         <div class="modal" id="modal">
@@ -177,6 +219,9 @@
                 Wyświetlacz LED to element elektroniczny, który umożliwia wizualizację sygnału w formie światła.
             </div>
         </div>
+
+
+
         <div id="overlay" class="overlay"></div>
         <script src="scriptmodal.js"></script>
   </html>
