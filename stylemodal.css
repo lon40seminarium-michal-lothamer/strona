@@ -60,8 +60,9 @@
     left: 0;
     right: 0;
     background-image: url(img/peak.gif);
-    background-size: cover 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
