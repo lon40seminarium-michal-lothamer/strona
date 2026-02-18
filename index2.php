@@ -16,7 +16,7 @@
   </div><br>
 <div id="container1">
 <table class="srodek">
-    <tr>
+    <tr>    
     <td>
     <div>
         <fieldset id = "fig1">

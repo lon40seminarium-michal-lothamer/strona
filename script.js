@@ -3,7 +3,7 @@ function rectangle(){
     let b = document.getElementById('rectB').value;
 
     let area = a * b;
-    let perimeter = (2 * (a + b));
+    let perimeter = (a + a + b + b);
 
     document.getElementById("rectResult").innerHTML =
         "Pole: " + area + "<br>Obwód: " + perimeter;
