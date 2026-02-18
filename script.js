@@ -6,7 +6,7 @@ function rectangle(){
     let perimeter = (a + a + b + b);
 
     document.getElementById("rectResult").innerHTML =
-        "Pole: " + area + "<br>Obwód: " + perimeter;
+        `Pole: $(area)<br>Obwód: $(perimeter)`;
 }
 
 function triangleArea() {
