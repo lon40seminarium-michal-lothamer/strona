@@ -1,6 +1,6 @@
 function rectangle(){
-    let a = document.getElementById('rectA').value;
-    let b = document.getElementById('rectB').value;
+    let a = Number(document.getElementById('rectA').value);
+    let b = Number(document.getElementById('rectB').value);
 
     let area = a * b;
     let perimeter = (a + a + b + b);
