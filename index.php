@@ -24,6 +24,9 @@
   <div class="container">
     <a class="button" href="index2.php" title="dlaczego to czytasz">Obliczanie pól</a>
   </div>
+  <div class="container">
+    <a class="button" href="ulamki.html" title="dlaczego to czytasz">Ułamki</a>
+  </div>
   <br><br><br><br><br><br><br><br>
 <a href="https://pl.wikipedia.org/wiki/Uma_Musume_Pretty_Derby" title="Uma Musume Pretty Derby">
     <img src="img/statement.gif" alt="viv" class="center-img">

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ułamki</title>
+<link rel="stylesheet" href="ulamki.css">
+<script src="ulamki.js"></script>
+</head>
+<body>
+<h1 class="title">Działania na ułamkach</h1>
+<div class="container">
+    <fieldset id="skracaj">
+        <legend>skracanie</legend>
+        <input type="text" id="licznik" name="licznik">
+        <hr></hr>
+        <input type="text" id="mianownik" name="mianownik"><br><br>
+        <input type="button" value="skróć" onclick="skracajulamek();">
+        <p id="ulsk">skrocona watosc</p>
+        <input type="text" id="liczniksk" name="liczniksk">
+        <hr></hr>
+        <input type="text" id="mianowniksk" name="mianowniksk">
+    </fieldset>
+        <div id="dod">
+            <fieldset id="dodawanie">
+                <legend>Dodawanie</legend>
+                <div class="md">
+                <input type="text" id="l2" name="l2"/>
+                <hr></hr>
+                <input type="text" id="m2" name="m2"/></br>
+                </div>
+                <div class="md">
+                <p class="center">&plus;</p>
+                </div>
+                <div class="md">
+                <input type="text" id="l3" name="l3"/>
+                <hr></hr>
+                <input type="text" id="m3" name="m3"/>
+                </div>
+                <div class="md">
+                <p>=</p>
+                </div>
+                <div class="md">
+                <input type="text" id="lw" name="lw"/>
+                <hr></hr>
+                <input type="text" id="mw" name="mw"/>
+                </div></br>
+                <div id="mdb">
+                <input type="button" value="Dodaj" onclick="dodajUlamki();"/>
+                </div>
+            </fieldset>
+                    <div id="odejm">
+            <fieldset id="odejmowanie">
+                <legend>odejmowanie</legend>
+                <div class="md">
+                <input type="text" id="f8" name="f8"/>
+                <hr></hr>
+                <input type="text" id="f9" name="f9"/></br>
+                </div>
+                <div class="md">
+                <p class="center">&minus;</p>
+                </div>
+                <div class="md">
+                <input type="text" id="g8" name="g8"/>
+                <hr></hr>
+                <input type="text" id="g9" name="g9"/>
+                </div>
+                <div class="md">
+                <p>=</p>
+                </div>
+                <div class="md">
+                <input type="text" id="jj" name="jj"/>
+                <hr></hr>
+                <input type="text" id="kk" name="kk"/>
+                </div></br>
+                <div id="mdb">
+                <input type="button" value="odejmij" onclick="odejmijUlamki();"/>
+                </div>
+            </fieldset>
+</div>
+</html>
