@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+}
+
+.image1 {
+    scale: 70%;
+}
+
+.image2 {
+    position: absolute;
+    left: 289px;
+    top: 190px;
+    scale: 1.064;
+    transition: 200ms;
+}
+
+.image2:hover|nie {
+    position: absolute;
+    left: 289px;
+    top: 190px;
+    scale: 80;
+    rotate: 9999deg;
+    transition: 20000ms;
+}

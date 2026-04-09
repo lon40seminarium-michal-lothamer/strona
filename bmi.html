@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>bmi</title>
+        <link rel="stylesheet" href="bmi.css">
+        <script src="bmi.js"></script>
+    </head>
+    <body style="font-family: Tahoma;">
+        <h1>Policz swoje bmi :3</h1>
+        <div>
+            <h3>Podaj swoją wagę puciek</h3>
+            <input type="number" id="waga" name="waga">
+            <h3>A teraz podaj wzrost w centymetrach :D</h3>
+            <input type="number" id="wzrost" name="wzrost"><br><br>
+            <input type="button" value="policz bmi :3" onclick="bmicalc();"/>
+            <p id="bmiout" name="bmiout"></p>
+        </div>
+        <div class="container">
+            <img src="skala_bmi.png" class="image1" id="image1"> 
+            <img src="strzalka.png" class="image2" id="image2">
+        </div>
+    </body>
+</html>
