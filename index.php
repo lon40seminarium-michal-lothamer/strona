@@ -30,6 +30,9 @@
     <div class="container">
     <a class="button" href="bmi.html" title="dlaczego to czytasz">Bmi calc</a>
   </div>
+  <div class="container">
+    <a class="button" href="catering.php" title="dlaczego to czytasz">catering</a>
+  </div>
   <br><br><br><br><br><br><br><br>
 <a href="https://pl.wikipedia.org/wiki/Uma_Musume_Pretty_Derby" title="Uma Musume Pretty Derby">
     <img src="img/statement.gif" alt="viv" class="center-img">
