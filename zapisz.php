@@ -18,7 +18,7 @@ var_dump(%_POST['waga']);
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$database = 'catering';
+$database = 'proszedzialaj_j';
 
 $conn = new mysqli($host, $user, $password, $database);
 if($conn->connect_error){

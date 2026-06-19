@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="rezystor.css" rel="stylesheet" type="text/css">
+    <script src="rezystor.js"></script>
+    <title>Rezystor</title>
+</head>
+<body>
+    <div class="main-flex">
+        <div class="container">
+            <h1>kalkulator rezystorow</h1>
+            <div id="resistor">
+                <div id="res-wire"></div>
+                <div id="res-body">
+                    <div id="belt1" onclick="showMenu(1);"></div>
+                    <div id="belt2" onclick="showMenu(2);"></div>
+                    <div id="belt3" onclick="showMenu(3);"></div>
+                    <div id="belt4" onclick="showMenu(4);"></div>
+                    <div id="belt5" onclick="showMenu(5);"></div>
+                </div>
+            </div>
+                <select id="value1" onchange="readValue(1)" style="display: none;">
+            <option value="" disabled>Wybierz kolor</option>
+            <option value="czarny">Czarny</option>
+            <option value="brazowy">Brązowy</option>
+            <option value="czerwony" selected>Czerwony</option>
+            <option value="pomaranczowy">Pomaranczowy</option>
+            <option value="zolty">Żółty</option>
+            <option value="zielony">Zielony</option>
+            <option value="niebieski">Niebieski</option>
+            <option value="fioletowy">Fioletowy</option>
+            <option value="szary">Szary</option>
+            <option value="bialy">Biały</option>
+        </select>
+        <select id="value2" onchange="readValue(2)" style="display: none;">
+            <option value="" disabled>Wybierz kolor</option>
+            <option value="czarny">Czarny</option>
+            <option value="brazowy">Brązowy</option>
+            <option value="czerwony" selected>Czerwony</option>
+            <option value="pomaranczowy">Pomaranczowy</option>
+            <option value="zolty">Żółty</option>
+            <option value="zielony">Zielony</option>
+            <option value="niebieski">Niebieski</option>
+            <option value="fioletowy">Fioletowy</option>
+            <option value="szary">Szary</option>
+            <option value="bialy">Biały</option>
+        </select>
+        <select id="value3" onchange="readValue(3)" style="display: none;">
+            <option value="" disabled>Wybierz kolor</option>
+            <option value="czarny">Czarny</option>
+            <option value="brazowy">Brązowy</option>
+            <option value="czerwony" selected>Czerwony</option>
+            <option value="pomaranczowy">Pomaranczowy</option>
+            <option value="zolty">Żółty</option>
+            <option value="zielony">Zielony</option>
+            <option value="niebieski">Niebieski</option>
+            <option value="fioletowy">Fioletowy</option>
+            <option value="szary">Szary</option>
+            <option value="bialy">Biały</option>
+        </select>
+            <select id="value4" onchange="readValue(4)" style="display: none;">
+            <option value="" disabled>Wybierz kolor</option>
+            <option value="czarny">Czarny</option>
+            <option value="brazowy">Brązowy</option>
+            <option value="czerwony" selected>Czerwony</option>
+            <option value="pomaranczowy">Pomaranczowy</option>
+            <option value="zolty">Żółty</option>
+            <option value="zielony">Zielony</option>
+            <option value="niebieski">Niebieski</option>
+            <option value="fioletowy">Fioletowy</option>
+            <option value="szary">Szary</option>
+        </select>
+        <select id="value5" onchange="readValue(5)" style="display: none;">
+            <option value="" disabled>Wybierz kolor</option>
+            <option value="brazowy">Brązowy</option>
+            <option value="czerwony" selected>Czerwony</option>
+            <option value="zloty">Złoty</option>
+            <option value="srebny">Srebny</option>
+        </select>
+            <div id="result" style="margin-top:20px;font-size:1.2em;"></div>
+        </div>
+        <img src="rezystor5.png" alt="rezystor schemat" class="side-image">
+    </div>
+</body>
+</html>
+
