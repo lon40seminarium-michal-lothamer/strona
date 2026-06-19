@@ -33,6 +33,9 @@
   <div class="container">
     <a class="button" href="catering.php" title="dlaczego to czytasz">catering</a>
   </div>
+    <div class="container">
+    <a class="button" href="rezystor.html" title="dlaczego to czytasz">rezystor</a>
+  </div>
   <br><br><br><br><br><br><br><br>
 <a href="https://pl.wikipedia.org/wiki/Uma_Musume_Pretty_Derby" title="Uma Musume Pretty Derby">
     <img src="img/statement.gif" alt="viv" class="center-img">
