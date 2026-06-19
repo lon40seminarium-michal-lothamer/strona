@@ -1,25 +1,18 @@
-// Calculates resistance and tolerance based on five color values
-// value1, value2, value3, value4, value5 are string keys from the colors object
 function calculateResistance(value1, value2, value3, value4, value5) {
-    // Get color objects
     const c1 = colors[value1];
     const c2 = colors[value2];
     const c3 = colors[value3];
     const c4 = colors[value4];
     const c5 = colors[value5];
 
-    // Validate input
     if (!c1 || !c2 || !c3 || !c4 || !c5) {
         return { error: "Invalid color value(s)" };
     }
-
-    // For 5-band resistor: (first digit)(second digit)(third digit) * multiplier (fourth band)
     if (typeof c1.cyfra !== 'number' || typeof c2.cyfra !== 'number' || typeof c3.cyfra !== 'number' || typeof c4.mnoznik !== 'number') {
         return { error: "Invalid band for resistance calculation" };
     }
     const resistance = ((c1.cyfra * 100) + (c2.cyfra * 10) + c3.cyfra) * c4.mnoznik;
 
-    // Tolerance from fifth band
     const tolerance = c5.tolerancja;
 
     return {
@@ -43,16 +36,13 @@ const colors = {
 };
 
 function showMenu(which){
-    // Hide all select elements first
     for (let i = 1; i <= 5; i++) {
         const select = document.getElementById(`value${i}`);
         if (select) select.style.display = 'none';
     }
-    // Show only the selected one
     const currentSelect = document.getElementById(`value${which}`);
     if (currentSelect) currentSelect.style.display = 'block';
 
-    // Set the belt color to the selected value (default to czerwony if not set)
     let selected = currentSelect ? currentSelect.value : 'czerwony';
     if (!selected) selected = 'czerwony';
     const belt = document.getElementById(`belt${which}`);
@@ -64,21 +54,18 @@ function readValue(which) {
     var belt = document.getElementById(`belt${which}`);
     belt.style.backgroundColor = colors[a].color;
 
-    // Get all selected values (default to czerwony if not set)
     var v1 = document.getElementById('value1').value || 'czerwony';
     var v2 = document.getElementById('value2').value || 'czerwony';
     var v3 = document.getElementById('value3').value || 'czerwony';
     var v4 = document.getElementById('value4').value || 'czerwony';
     var v5 = document.getElementById('value5').value || 'czerwony';
 
-    // Only calculate if all are selected (or defaulted)
     if (v1 && v2 && v3 && v4 && v5) {
         var result = calculateResistance(v1, v2, v3, v4, v5);
         var resultDiv = document.getElementById('result');
         if (result.error) {
             resultDiv.textContent = result.error;
         } else {
-            // Format resistance with units
             let res = result.resistance;
             let resStr = '';
             if (res >= 1e6) {
@@ -88,10 +75,8 @@ function readValue(which) {
             } else {
                 resStr = res + ' Ω';
             }
-            // Tolerance
             let tol = result.tolerance;
             let tolStr = tol ? `±${tol}%` : '';
-            // Range
             let min = tol ? (res * (1 - tol/100)) : res;
             let max = tol ? (res * (1 + tol/100)) : res;
             let rangeStr = tol ? `Toleracja: ${min.toFixed(2)} Ω – ${max.toFixed(2)} Ω` : '';
