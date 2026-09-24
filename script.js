@@ -8,7 +8,7 @@ function rectangle(){
     document.getElementById("rectResult").innerHTML =
         `Pole: ${area}<br>Obwód: ${perimeter}`;
 }
-
+ 
 function triangleArea() {
     let a = parseFloat(document.getElementById("triA").value);
     let h = parseFloat(document.getElementById("triH").value);
